@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decodificador de Texto</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="assets/logo.png" alt="logo alura" />
+    </header>
+    <main class="conteudo">
+      <div class="conteudo_principal">
+        <div class="conjunto_texto_botao">
+          <label for="dataInput"></label>
+          <textarea
+            id="dataInput"
+            class="textoarea"
+            placeholder="Digite seu texto"
+            autofocus
+          ></textarea>
+          <img src="assets/aviso.png" alt="icone de exclamação" />
+          <text>Apenas letras minúsculas e sem acento.</text>
+          <div class="botao_conjunto">
+            <button onclick="botaoEncrypt()" class="botao_estilo_um">
+              Criptografar
+            </button>
+            <button onclick="botaoDecrypt()" class="botao_estilo_dois">
+              Descriptografar
+            </button>
+          </div>
+        </div>
+      </div>
+      <aside id="conteudo-lateral" class="conteudo_lateral">
+        <div id="conjuntoDentroRetangulo" class="conteudo_lateral_original">
+          <img class="imagem_menino_lupa" src="assets/sem-mensagem.png" />
+          <h3>Nenhuma mensagem encontrada</h3>
+          <text
+            >Digite um texto que você deseja criptografar ou
+            descriptografar.</text
+          >
+        </div>
+      </aside>
+    </main>
+    <footer class="rodape">
+      <a >Desenvolvido por Marcos Vinicius</a>
+      <div class="apresentacao__links">
+        <a class=apresentacao__links__navegacao href="https://github.com/Mxrkyy">
+            <img src="./assets/Git_logo.png" alt="Git_logo" width="5%">
+        </a> </a>
+        
+      
+    </div>
+    
+      
+    </footer>
+  </body>
+</html>
