@@ -20,4 +20,4 @@ Este é um projeto desenvolvido com JavaScript, CSS3 e HTML5, como parte do desa
 
 ◻️ A página deve ter campos para inserção do texto a ser criptografado ou descriptografado, e a pessoa usuária deve poder escolher entre as duas opções.
 
-◻️Um botão que copie o texto criptografado/descriptografado para a área de transferência, o famosinho Crtl+C 
+◻️Um botão que copie o texto criptografado/descriptografado para a área de transferência.
